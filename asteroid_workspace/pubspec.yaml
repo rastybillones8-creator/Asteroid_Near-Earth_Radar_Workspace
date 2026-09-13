@@ -1,0 +1,10 @@
+name: asteroid_workspace
+publish_to: none
+
+environment:
+  sdk: '^3.8.1'
+
+workspace:
+  - terminal_colors
+  - asteroid_api
+  - asteroid_cli

@@ -1,0 +1,17 @@
+name: asteroid_api
+description: NASA NeoWs API client for Asteroid Near-Earth Radar.
+version: 1.0.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: '^3.8.1'
+
+dependencies:
+  http: ^1.2.0
+  logging: ^1.2.0
+  terminal_colors: ^1.0.0
+
+dev_dependencies:
+  lints: ^6.1.0
+  test: ^1.24.0
